@@ -1,6 +1,12 @@
-﻿namespace Bulky_Web.Data
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace Bulky_Web.Data
 {
-    public class ApplicationDbContext
+    public class ApplicationDbContext : DbContext
     {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        {
+
+        }
     }
 }

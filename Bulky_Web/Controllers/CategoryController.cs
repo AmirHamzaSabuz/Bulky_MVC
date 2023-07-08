@@ -1,5 +1,6 @@
-﻿using Bulky_Web.Data;
-using Bulky_Web.Models;
+﻿
+using Bulky_DataAccess;
+using Bulky_Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Bulky_Web.Controllers
